@@ -7,25 +7,21 @@ using System.Threading.Tasks;
 namespace Mitholtuar.Domain.WhatMakesASoldier
 {
     class Archer : Soldier
-    {
-        public override void Health()
-        {
-            base.Health();
-        }
+    { 
 
         public override void Armor()
         {
-            base.Armor();
+            int armor = 2;
         }
 
         public override void Attack()
         {
-            base.Attack();
+            int attack = 4;
         }
 
         public override void speed()
         {
-            base.speed();
+            int speed 4;
         }
     }
 }

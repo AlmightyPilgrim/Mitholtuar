@@ -10,22 +10,22 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
     {
         public override void Health()
         {
-            base.Health();
+            int healthpool = 15;
         }
 
         public override void Armor()
         {
-            base.Armor();
+            int armor = 4;
         }
 
         public override void Attack()
         {
-            base.Attack();
+            int attack = 4;
         }
 
         public override void speed()
         {
-            base.speed();
+            int speed = 2;
         }
     }
 }
