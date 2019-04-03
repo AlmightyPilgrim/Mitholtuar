@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitholtuarWarfare", "MitholtuarWarfare\MitholtuarWarfare.csproj", "{C636C5DD-2C52-42F3-A49D-97D73E2C9960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitholtuar.Domain", "Mitholtuar.Domain\Mitholtuar.Domain.csproj", "{DEAB953A-6F70-4E1A-96A1-13AB9AA3AE60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C636C5DD-2C52-42F3-A49D-97D73E2C9960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C636C5DD-2C52-42F3-A49D-97D73E2C9960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C636C5DD-2C52-42F3-A49D-97D73E2C9960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAB953A-6F70-4E1A-96A1-13AB9AA3AE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAB953A-6F70-4E1A-96A1-13AB9AA3AE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAB953A-6F70-4E1A-96A1-13AB9AA3AE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAB953A-6F70-4E1A-96A1-13AB9AA3AE60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
