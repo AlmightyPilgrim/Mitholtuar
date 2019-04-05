@@ -12,6 +12,7 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
         public override void Armor()
         {
             int armor = 2;
+            Console.WriteLine($"Armor value: {armor}");
         }
 
         public virtual void Attack()
@@ -22,6 +23,7 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
         public override void speed()
         {
             int speed = 4;
+            Console.WriteLine($"Speed: {speed}");
         }
     }
 }

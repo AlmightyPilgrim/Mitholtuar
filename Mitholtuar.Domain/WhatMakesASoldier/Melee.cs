@@ -11,11 +11,13 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
         public override void Health()
         {
             int healthpool = 15;
+            Console.WriteLine($"Health: {healthpool}");
         }
 
         public override void Armor()
         {
             int armor = 4;
+            Console.WriteLine($"Armor value: {armor}");
         }
 
         public virtual void Attack()
@@ -26,6 +28,7 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
         public override void speed()
         {
             int speed = 2;
+            Console.WriteLine($"Speed: {speed}");
         }
     }
 }
