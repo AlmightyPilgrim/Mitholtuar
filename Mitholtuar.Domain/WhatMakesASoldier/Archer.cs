@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mitholtuar.Domain.WhatMakesASoldier
 {
-    class Archer : Soldier
+    public class Archer : Soldier
     { 
 
         public override void Armor()

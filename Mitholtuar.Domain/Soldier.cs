@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mitholtuar.Domain
 {
-    class Soldier
+    public class Soldier
     {
         // virtual health, base health
         public virtual void Health()

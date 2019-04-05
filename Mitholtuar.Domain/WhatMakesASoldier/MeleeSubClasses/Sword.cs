@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mitholtuar.Domain.WhatMakesASoldier.MeleeSubClasses
 {
-    class Sword : Melee
+    public class Sword : Melee
     {
     }
 }

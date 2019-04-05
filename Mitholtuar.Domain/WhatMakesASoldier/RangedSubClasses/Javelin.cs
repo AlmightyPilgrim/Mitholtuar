@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mitholtuar.Domain.WhatMakesASoldier.RangedSubClasses
 {
-    class Javelin : Archer
+    public class Javelin : Archer
     {
     }
 }

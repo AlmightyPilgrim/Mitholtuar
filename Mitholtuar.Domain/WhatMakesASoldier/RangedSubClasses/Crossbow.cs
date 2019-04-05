@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mitholtuar.Domain.WhatMakesASoldier.RangedSubClasses
 {
-    class Crossbow : Archer
+    public class Crossbow : Archer
     {
     }
 }
