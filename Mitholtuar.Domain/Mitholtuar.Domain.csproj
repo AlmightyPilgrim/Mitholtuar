@@ -44,8 +44,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Soldier.cs" />
     <Compile Include="WhatMakesASoldier\Archer.cs" />
-    <Compile Include="WhatMakesASoldier\Spearman.cs" />
-    <Compile Include="WhatMakesASoldier\Swordsman.cs" />
+    <Compile Include="WhatMakesASoldier\Melee.cs" />
+    <Compile Include="WhatMakesASoldier\MeleeSubClasses\Sword.cs" />
+    <Compile Include="WhatMakesASoldier\MeleeSubClasses\Axe.cs" />
+    <Compile Include="WhatMakesASoldier\MeleeSubClasses\Spear.cs" />
+    <Compile Include="WhatMakesASoldier\RangedSubClasses\Bow.cs" />
+    <Compile Include="WhatMakesASoldier\RangedSubClasses\Crossbow.cs" />
+    <Compile Include="WhatMakesASoldier\RangedSubClasses\Javelin.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

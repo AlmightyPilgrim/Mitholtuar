@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Mitholtuar.Domain;
+using Mitholtuar.Domain.WhatMakesASoldier;
 
 namespace MitholtuarWarfare
 {
@@ -10,6 +12,7 @@ namespace MitholtuarWarfare
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }

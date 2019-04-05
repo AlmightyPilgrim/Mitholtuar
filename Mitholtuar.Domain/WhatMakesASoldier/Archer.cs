@@ -14,14 +14,14 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
             int armor = 2;
         }
 
-        public override void Attack()
+        public virtual void Attack()
         {
-            int attack = 4;
+            int attack = 1;
         }
 
         public override void speed()
         {
-            int speed 4;
+            int speed = 4;
         }
     }
 }

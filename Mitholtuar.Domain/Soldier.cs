@@ -15,10 +15,10 @@ namespace Mitholtuar.Domain
         }
 
         // virtual attack power, base dmg
-        public virtual void Attack()
-        {
-            int attack = 1;
-        }
+        //public virtual void Attack()
+        //{
+        //    int attack = 1;
+        //}
 
         // virtual armor value, base armor value
         public virtual void Armor()

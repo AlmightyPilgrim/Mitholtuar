@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mitholtuar.Domain.WhatMakesASoldier
 {
-    class Spearman : Soldier
+    class Melee : Soldier
     {
         public override void Health()
         {
@@ -15,7 +15,17 @@ namespace Mitholtuar.Domain.WhatMakesASoldier
 
         public override void Armor()
         {
-            int armor = 3;
+            int armor = 4;
+        }
+
+        public virtual void Attack()
+        {
+            int attack = 1;
+        }
+
+        public override void speed()
+        {
+            int speed = 2;
         }
     }
 }

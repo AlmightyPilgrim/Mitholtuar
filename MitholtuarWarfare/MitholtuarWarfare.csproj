@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mitholtuar.Domain\Mitholtuar.Domain.csproj">
+      <Project>{deab953a-6f70-4e1a-96a1-13ab9aa3ae60}</Project>
+      <Name>Mitholtuar.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
