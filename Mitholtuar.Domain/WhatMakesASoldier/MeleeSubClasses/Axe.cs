@@ -8,5 +8,10 @@ namespace Mitholtuar.Domain.WhatMakesASoldier.MeleeSubClasses
 {
     public class Axe : Melee
     {
+        public override void Attack()
+        {
+            int attack = 5;
+            Console.WriteLine($"Attack power: {attack}");
+        }
     }
 }

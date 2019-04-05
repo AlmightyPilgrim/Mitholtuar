@@ -8,5 +8,10 @@ namespace Mitholtuar.Domain.WhatMakesASoldier.MeleeSubClasses
 {
     public class Sword : Melee
     {
+        public override void Attack()
+        {
+            int attack = 3;
+            Console.WriteLine($"Attack power: {attack}");
+        }
     }
 }

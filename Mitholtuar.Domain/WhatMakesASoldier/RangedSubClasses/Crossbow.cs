@@ -8,5 +8,10 @@ namespace Mitholtuar.Domain.WhatMakesASoldier.RangedSubClasses
 {
     public class Crossbow : Archer
     {
+        public override void Attack()
+        {
+            int attack = 5;
+            Console.WriteLine($"Attack power: {attack}");
+        }
     }
 }
