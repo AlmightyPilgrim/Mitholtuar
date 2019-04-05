@@ -57,6 +57,9 @@ namespace MitholtuarWarfare
                                 spearSoldier.Attack();
                                 spearSoldier.speed();
                                 break;
+                            default:
+                                Console.WriteLine($"{answer} is not a feature of this army.");
+                                break;
                         }
                         break;
                     case "Ranged":
@@ -85,7 +88,7 @@ namespace MitholtuarWarfare
                                 javelinSoldier.speed();
                                 break;
                             default:
-                                Console.WriteLine("There are none of those here");
+                                Console.WriteLine($"{answer} is not a feature of this army.");
                                 break;
                         }
                         break;
