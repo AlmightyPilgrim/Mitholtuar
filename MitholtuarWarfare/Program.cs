@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mitholtuar.Domain;
-using Mitholtuar.Domain.WhatMakesASoldier;
 using Mitholtuar.Domain.WhatMakesASoldier.MeleeSubClasses;
 using Mitholtuar.Domain.WhatMakesASoldier.RangedSubClasses;
 
